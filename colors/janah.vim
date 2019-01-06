@@ -14,13 +14,13 @@ highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 gui=NONE cterm=NONE
 
 " Misc {{{1
 
-highlight Comment guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight Comment guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Constant guifg=#87dfdf ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Directory guifg=#ffaf87 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight EndOfBuffer guifg=#262626 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Identifier guifg=#ffaf87 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight MatchParen guifg=#df005f ctermfg=161 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-highlight NonText guifg=#ff00af ctermfg=199 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+highlight MatchParen guifg=#d75f5f ctermfg=167 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+highlight NonText guifg=#d787af ctermfg=175 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 highlight Number guifg=#87dfdf ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight PreProc guifg=#ffdfaf ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Special guifg=#dfafaf ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -31,7 +31,7 @@ highlight Title guifg=#afff87 ctermfg=156 guibg=NONE ctermbg=NONE gui=NONE cterm
 highlight Todo guifg=#ffdfaf ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Type guifg=#87dfaf ctermfg=115 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight VertSplit guifg=#3a3a3a ctermfg=237 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
-highlight WildMenu guifg=#df005f ctermfg=161 guibg=#3a3a3a ctermbg=237 gui=bold cterm=bold
+highlight WildMenu guifg=#d75f5f ctermfg=167 guibg=#3a3a3a ctermbg=237 gui=bold cterm=bold
 
 " Cursor lines {{{1
 
@@ -74,20 +74,20 @@ highlight Folded ctermfg=102 ctermbg=237 cterm=NONE guifg=#878787 guibg=#3a3a3a 
 
 " Search {{{1
 
-highlight IncSearch guifg=#c0c0c0 ctermfg=7 guibg=#005fff ctermbg=27 gui=NONE cterm=NONE
-highlight Search guifg=#c0c0c0 ctermfg=7 guibg=#df005f ctermbg=161 gui=NONE cterm=NONE
+highlight IncSearch guifg=#c0c0c0 ctermfg=7 guibg=#87afff ctermbg=111 gui=NONE cterm=NONE
+highlight search guifg=#c0c0c0 ctermfg=7 guibg=#d75f5f ctermbg=167 gui=none cterm=none
 
 " Messages {{{1
 
-highlight Error guifg=#eeeeee ctermfg=255 guibg=#df0000 ctermbg=160 gui=NONE cterm=NONE
-highlight ErrorMsg guifg=#eeeeee ctermfg=255 guibg=#df0000 ctermbg=160 gui=NONE cterm=NONE
+highlight Error guifg=#eeeeee ctermfg=255 guibg=#d75f5f ctermbg=167 gui=NONE cterm=NONE
+highlight ErrorMsg guifg=#eeeeee ctermfg=255 guibg=#d75f5f ctermbg=167 gui=NONE cterm=NONE
 highlight ModeMsg guifg=#afff87 ctermfg=156 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-highlight MoreMsg guifg=#c0c0c0 ctermfg=7 guibg=#005fdf ctermbg=26 gui=NONE cterm=NONE
-highlight WarningMsg guifg=#c0c0c0 ctermfg=7 guibg=#005fdf ctermbg=26 gui=NONE cterm=NONE
+highlight MoreMsg guifg=#c0c0c0 ctermfg=7 guibg=#87afff ctermbg=111 gui=NONE cterm=NONE
+highlight WarningMsg guifg=#c0c0c0 ctermfg=7 guibg=#87afff ctermbg=111 gui=NONE cterm=NONE
 
 " Visual {{{1
 
-highlight Visual guifg=#c0c0c0 ctermfg=7 guibg=#005f87 ctermbg=24 gui=NONE cterm=NONE
+highlight Visual guifg=#c0c0c0 ctermfg=7 guibg=#87afff ctermbg=111 gui=NONE cterm=NONE
 highlight VisualNOS guifg=#c0c0c0 ctermfg=7 guibg=#5f5f87 ctermbg=60 gui=NONE cterm=NONE
 
 " Pmenu {{{1
@@ -99,7 +99,7 @@ highlight PmenuThumb ctermfg=NONE guibg=#df5f5f ctermbg=167 gui=NONE cterm=NONE
 
 " Spell {{{1
 highlight SpellBad guifg=#c0c0c0 ctermfg=7 guibg=#df5f5f ctermbg=167 gui=NONE cterm=NONE
-highlight SpellCap guifg=#c0c0c0 ctermfg=7 guibg=#005fdf ctermbg=26 gui=NONE cterm=NONE
+highlight SpellCap guifg=#c0c0c0 ctermfg=7 guibg=#87afff ctermbg=111 gui=NONE cterm=NONE
 highlight SpellLocal guifg=#c0c0c0 ctermfg=7 guibg=#8700af ctermbg=91 gui=NONE cterm=NONE
 highlight SpellRare guifg=#c0c0c0 ctermfg=7 guibg=#00875f ctermbg=29 gui=NONE cterm=NONE
 
@@ -109,14 +109,14 @@ highlight qfSeparator ctermfg=243 ctermbg=NONE cterm=NONE guifg=#767676 guibg=NO
 
 " Plugin: vim-easymotion {{{1
 highlight EasyMotionTarget guifg=#ffff5f ctermfg=227 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-highlight EasyMotionTarget2First guifg=#df005f ctermfg=161 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight EasyMotionTarget2First guifg=#d75f5f ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight EasyMotionTarget2Second guifg=#ffff5f ctermfg=227 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Plugin: vim-rfc {{{1
-highlight RFCType guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight RFCType guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight RFCID guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight RFCTitle guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight RFCDelim guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight RFCDelim guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Plugin: vim-signify {{{1
 highlight SignifySignAdd guifg=#87ff5f ctermfg=119 guibg=#3a3a3a ctermbg=237 gui=bold cterm=bold
@@ -124,20 +124,20 @@ highlight SignifySignDelete guifg=#df5f5f ctermfg=167 guibg=#3a3a3a ctermbg=237 
 highlight SignifySignChange guifg=#ffff5f ctermfg=227 guibg=#3a3a3a ctermbg=237 gui=bold cterm=bold
 
 " Plugin: vim-startify {{{1
-highlight StartifyBracket guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight StartifyBracket guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight StartifyFile guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight StartifyFooter guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight StartifyFooter guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight StartifyHeader guifg=#87df87 ctermfg=114 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight StartifyNumber guifg=#ffaf5f ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight StartifyPath guifg=#8a8a8a ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight StartifySection guifg=#dfafaf ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight StartifySelect guifg=#5fdfff ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight StartifySlash guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight StartifySpecial guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight StartifySlash guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight StartifySpecial guifg=#d7af87 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " Neovim {{{1
 
-highlight TermCursor ctermfg=NONE guibg=#ff00af ctermbg=199 gui=NONE cterm=NONE
+highlight TermCursor ctermfg=NONE guibg=#d787af ctermbg=175 gui=NONE cterm=NONE
 highlight TermCursorNC ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " HTML {{{1
